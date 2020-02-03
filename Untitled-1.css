@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.headImage {
+    height: 80;
+}
+
+.table {
+    width: 100%;
+}
+
+thead {
+    padding: 10px 10px;
+    background: #00adee;
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #1D4A5A;
+    font-weight: normal;
+    font-family: monospace;
+    text-align: center;
+}
+
+tbody {
+    padding: 10px;
+    background: #f2f2f2;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.add,
+.edit,
+.save,
+.delete {
+    outline: none;
+    background: none;
+    border: none;
+    font-family: monospace;
+    text-align: center;
+}
+
+.edit,
+.save,
+.delete {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add {
+    float: right;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 0;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.save {
+    display: none;
+    background: #32AD60;
+    color: #ffffff;
+}
+
+.edit {
+    background: #2199e8;
+    color: #ffffff;
+}
+
+.delete {
+    background: #EC5840;
+    color: #ffffff;
+}
